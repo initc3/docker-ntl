@@ -1,2 +1,2 @@
 # docker-ntl
-Dockerfile for NTL library (https://www.shoup.net/ntl/).
+Dockerfiles for NTL, a library for doing number theory (https://www.shoup.net/ntl/). 
