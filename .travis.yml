@@ -1,0 +1,12 @@
+services:
+- docker
+
+jobs:
+  include:
+    - stage: Build images
+      name: NTL 10.5 (buster)
+      script: docker build 10.5/buster
+    - name: NTL 11.3 (buster)
+      script: docker build 11.3/buster
+    - name: NTL 11.4 (buster)
+      script: docker build 11.4/buster
